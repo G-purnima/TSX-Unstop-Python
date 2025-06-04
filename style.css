@@ -1,0 +1,125 @@
+body {
+    background-color: #fffbea;
+    color: #333;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #4b0082;
+}
+
+nav {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #0066cc;
+}
+
+h1:hover{
+   text-shadow:
+    2px 2px 8px #ff69b4,
+    -2px -2px 4px #00ffff;
+    
+    
+}
+h1 {
+  font-family: 'Verdana', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #111;
+  padding: 25px;
+  
+    background-image: url("/static/flower.jpg");
+}
+
+.all-hor{
+    display: flex;
+  justify-content: center;
+  gap: 40px; 
+  margin-top: 20px;
+}
+
+.all-hor a {
+  text-decoration: none;
+  color: #1100ff;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.all-hor a:hover {
+  color: hotpink;
+}
+
+.content:hover{
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  text-shadow:
+    2px 2px 8px #ff69b4,
+    -2px -2px 4px #00ffff;
+}
+ .content {
+    font-size: 30px;
+    color: #e91e63;
+    display: inline-block;
+    animation: bounce 2s infinite;
+    display: flex;
+    justify-content: center;
+    border-radius: 40px;
+    margin: 0;
+      border: none;
+      padding: 0;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-30px);
+    }
+}
+
+ .content:hover {
+      animation-play-state: paused;
+    }
+h2{
+  font-family: 'Verdana', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #111;
+  padding: 25px;
+  background-image: url("/static/flower.jpg");
+}
+h2:hover{
+   text-shadow:
+    2px 2px 8px #ff69b4,
+    -2px -2px 4px #00ffff;
+    
+    
+}
+
+.para{
+  font-size: 16px;
+    color: #e91e63;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    border-radius: 40px;
+    margin: 0;
+      border: none;
+      padding: 0;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.a{
+  background-color: orchid;
+  color: black;
+}
