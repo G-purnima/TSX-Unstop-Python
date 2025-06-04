@@ -1,5 +1,0 @@
-str1=input("Enter first string: ")
-str2=input("Enter second string to combine: ")
-print("string1: ",str1)
-print("string2: ",str2)
-print("After concatenates two strings: ",(str1+str2))
